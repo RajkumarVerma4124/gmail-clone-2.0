@@ -1,0 +1,30 @@
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.login__container>img {
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 30px;
+}
+
+.login__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 100px;
+    border-radius: 20px;
+    --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.login_btn {
+    width: 12vw;
+    height: 6vh;
+    --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
